@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('Africa/Cairo');
-$token = "7941002567:AAHtcUPc9LeyHawby-ALtC0rd7dyzNvkvW0";
+$token = "7817692574:AAHaY4nH0wvEqYZJ_JU60q_5eMu8s3uDYl0";
 define('API_KEY',$token);
 echo file_get_contents("https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=" . $_SERVER['SERVER_NAME'] . "" . $_SERVER['SCRIPT_NAME']);
             function bot($method,$datas=[]){
